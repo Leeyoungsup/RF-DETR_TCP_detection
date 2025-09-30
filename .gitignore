@@ -1,2 +1,4 @@
 rf-detr-base.pth
 rf-detr-small.pth
+rtdetr-l.pt
+yolo11n.pt
