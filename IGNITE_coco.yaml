@@ -1,0 +1,14 @@
+# 데이터셋 경로 설정
+path: ../../data/coco_IGNITE  # 데이터셋 루트 경로
+train: train  # 훈련 이미지 폴더 (path 기준 상대경로)
+val: valid      # 검증 이미지 폴더
+test: test     # 테스트 이미지 폴더 (없으면 val과 동일)
+
+# 클래스 개수
+nc: 3  # number of classes
+
+# 클래스 이름 리스트 (인덱스 순서대로)
+names:
+  0: negative
+  1: positive
+  2: non-tumor
